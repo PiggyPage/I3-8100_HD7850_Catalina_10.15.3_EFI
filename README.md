@@ -1,0 +1,2 @@
+# I3-8100_HD7850_Catalina_10.15.3_EFI
+Share a 10.15.3 EFI.
