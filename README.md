@@ -83,3 +83,6 @@ EFI十分稳定，升级自行更新CLover
 - K2000D
 - K600
 - K420
+
+## 截图
+ ![image](https://github.com/plusl894860970/I3-8100_HD7850_Catalina_10.15.3_EFI/raw/master/screenshots/wechat.jpeg)
