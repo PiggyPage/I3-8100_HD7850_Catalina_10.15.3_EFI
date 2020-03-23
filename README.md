@@ -8,6 +8,10 @@ EFI十分稳定，升级自行更新CLover
 
 无线网卡在腾达官网有10.15的无线网卡驱动，实测稳定跑满20M带宽
 
+### 目前已知问题：
+
+* 网卡内核替换为RTL810x（未测试）;
+
 ## 各平台免驱卡列表 
 默认使用ATI显卡，不同平台显卡请自行修改config.plist
 
@@ -84,5 +88,8 @@ EFI十分稳定，升级自行更新CLover
 - K600
 - K420
 
-## 截图
- ![image](https://github.com/plusl894860970/I3-8100_HD7850_Catalina_10.15.3_EFI/raw/master/screenshots/wechat.jpeg)
+### 打赏
+
+| 微信 | 支付宝 | 
+|  ----  | ----  |
+| ![微信打赏码](https://raw.githubusercontent.com/plusl894860970/k480d-i5-d1-hackintosh/master/image/wechat.png) | ![支付宝打赏码](https://raw.githubusercontent.com/plusl894860970/k480d-i5-d1-hackintosh/master/image/alipay.png) | 
