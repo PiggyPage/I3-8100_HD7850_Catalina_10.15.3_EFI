@@ -2,15 +2,34 @@
 ## 配置
 | CPU | 主板 | 内存 | 显卡 | 网卡 |
 |  ----  | ----  | ----  | ----  | ---- |
-| i3-8100 | 铭瑄H110M | 2*8GDDR3-1333专用条 | 迪兰HD7850-2G | 腾达U3 |
+| i3-8100 | 铭瑄H110M | 2*8GDDR3-1333专用条 | 迪兰HD7850-2G | RTL8100 |
 
 EFI十分稳定，升级自行更新CLover
 
-无线网卡在腾达官网有10.15的无线网卡驱动，实测稳定跑满20M带宽
+### 目前已知问题
 
-### 目前已知问题：
+* 睡眠未测试
 
-* 网卡内核替换为RTL810x（未测试）;
+### 使用须知
+
+* 铭瑄H110M网卡内核替换为RTL8100，其他主板自行替换 RTL8111.kext;
+* 蓝牙是某宝20元买的4.0 直插免驱
+* 不使用Wi-Fi 可以自行购买蓝牙WI-FI二合一免驱网卡
+* 非铭瑄H110M声卡请自行查询注入ID； [AppleALC支持的Codecs](https://blog.daliansky.net/AppleALC-Supported-codecs.html)
+
+### 打赏
+
+| 微信 | 支付宝 | 
+|  ----  | ----  |
+| ![微信打赏码](https://raw.githubusercontent.com/plusl894860970/k480d-i5-d1-hackintosh/master/image/wechat.png) | ![支付宝打赏码](https://raw.githubusercontent.com/plusl894860970/k480d-i5-d1-hackintosh/master/image/alipay.png) | 
+
+
+### 截图
+
+![关于本机]](https://raw.githubusercontent.com/plusl894860970/I3-8100_HD7850_Catalina_10.15.3_EFI/master/screenshots/About.png)
+![声卡]](https://raw.githubusercontent.com/plusl894860970/I3-8100_HD7850_Catalina_10.15.3_EFI/master/screenshots/Audio.png)
+![蓝牙]](https://raw.githubusercontent.com/plusl894860970/I3-8100_HD7850_Catalina_10.15.3_EFI/master/screenshots/Bluetooth.png)
+![网络]](https://raw.githubusercontent.com/plusl894860970/I3-8100_HD7850_Catalina_10.15.3_EFI/master/screenshots/Network.png)
 
 ## 各平台免驱卡列表 
 默认使用ATI显卡，不同平台显卡请自行修改config.plist
@@ -87,9 +106,3 @@ EFI十分稳定，升级自行更新CLover
 - K2000D
 - K600
 - K420
-
-### 打赏
-
-| 微信 | 支付宝 | 
-|  ----  | ----  |
-| ![微信打赏码](https://raw.githubusercontent.com/plusl894860970/k480d-i5-d1-hackintosh/master/image/wechat.png) | ![支付宝打赏码](https://raw.githubusercontent.com/plusl894860970/k480d-i5-d1-hackintosh/master/image/alipay.png) | 
