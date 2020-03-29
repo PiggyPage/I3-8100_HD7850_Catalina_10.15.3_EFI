@@ -27,8 +27,11 @@ EFI十分稳定，升级自行更新CLover
 ### 截图
 
 ![关于本机]](https://raw.githubusercontent.com/plusl894860970/I3-8100_HD7850_Catalina_10.15.3_EFI/master/screenshots/About.png)
+
 ![声卡]](https://raw.githubusercontent.com/plusl894860970/I3-8100_HD7850_Catalina_10.15.3_EFI/master/screenshots/Audio.png)
+
 ![蓝牙]](https://raw.githubusercontent.com/plusl894860970/I3-8100_HD7850_Catalina_10.15.3_EFI/master/screenshots/Bluetooth.png)
+
 ![网络]](https://raw.githubusercontent.com/plusl894860970/I3-8100_HD7850_Catalina_10.15.3_EFI/master/screenshots/Network.png)
 
 ## 各平台免驱卡列表 
